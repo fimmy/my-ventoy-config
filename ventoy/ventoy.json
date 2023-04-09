@@ -1,0 +1,39 @@
+{
+    "control":[
+        { "VTOY_MENU_TIMEOUT": "30" },
+        { "VTOY_SECONDARY_TIMEOUT": "10" },
+        { "VTOY_MENU_LANGUAGE": "zh_CN" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/iso" },
+        { "VTOY_DEFAULT_IMAGE": "/iso/pe/WePE64_V2.2.iso" }
+    ],
+    "theme":{
+        "file": "/ventoy/themes/fallout/theme.txt",
+        "ventoy_left": "5",
+        "ventoy_top": "5",
+        "ventoy_color": "#67d97a",
+        "fonts":[
+            "/ventoy/themes/fallout/Cubic-32.pf2",
+            "/ventoy/themes/fallout/Cubic-16.pf2"
+        ]
+    },
+    "menu_alias":[
+        {
+            "image": "/iso/pe/WePE64_V2.2.iso",
+            "alias": "微PE"
+        },
+        {
+            "image": "/iso/pe/FirPE-V1.8.2.iso",
+            "alias": "FirPE"
+        }
+    ],
+    "menu_class":[
+        {
+            "parent": "/iso/windows",
+            "class": "windows"
+        },
+        {
+            "parent": "/iso/pe",
+            "class": "pe"
+        }
+    ]
+}
